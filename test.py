@@ -2,7 +2,7 @@ from src.semantic import Analysis
 
 if __name__=='__main__':
 	
-	text = '自然语言处理是什么？'
+	text = 'BUPT自然语言处理是谁教的？'
 
 	slu = Analysis(text)
 	
@@ -11,9 +11,9 @@ if __name__=='__main__':
 	
 	#print('--------------------------')
 	
-	#print(slu.cws) #分词
+	slu.cws #分词
 	
-	#print(slu.pos) #词性标注
+	slu.pos #词性标注
 		
 	print("NER")
 	print(slu.ner) #命名实体识别
