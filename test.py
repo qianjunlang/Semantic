@@ -6,7 +6,7 @@ if __name__=='__main__':
 
 	slu = Analysis(text)
 	
-	#data = slu.analysis()  #解析
+	data = slu.analysis()  #解析
 	#print(data) #总的结果
 	
 	#print('--------------------------')
